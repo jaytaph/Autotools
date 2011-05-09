@@ -1,0 +1,3 @@
+Even though the --enable-world from our last example works, the compilation is still not what we want. Our program still consists of two differnt objects: hello.o and world.o. It would be nice if we can actually remove the whole world.o object when we don't want our "world" message to be displayed.
+
+For this to work, we need to change the Makefile.am a bit. We conditionally add the world.c to the hello sources, depending on the variable COMPILE_WITH_WORLD, which is set in the configure.ac file.
