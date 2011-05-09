@@ -1,0 +1,5 @@
+The difference between hello3 and hello4 is the fact that ./configure now has an option to display the "world" string or not.
+
+When we run ./configure (without parameters), the hello application will print "hello". When we run ./configure with the "--enable-world" parameter, our helloworld application will display the full "hello world!" string.
+
+Running ./configure --help will display this setting as well.
