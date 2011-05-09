@@ -1,0 +1,3 @@
+Simple hello world example. Will compile the software and install it. Possible to clean up objects and files with "make clean".
+
+Note that this example does not take in account what kind of compiler you have, if you have the "install" program etc.

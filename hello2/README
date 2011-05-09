@@ -1,0 +1,5 @@
+More advanced example of the hello world program.
+
+The program has been split into separate objects and additional header files. It will find dependencies between sources so only the sources are rebuild that actually need to be rebuild.
+
+Furthermore it will be easier to change our compiler, or the install program.
