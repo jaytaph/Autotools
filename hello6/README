@@ -1,0 +1,6 @@
+If we find the json libraries and development files, the helloworld application will output a json-style helloworld instead of the raw string. 
+
+Autobuild the program (see compile.sh), and check if the output is a "normal" Hello World string.
+
+Then install the json libraries (issue a "apt-get install libjson0-dev" under ubuntu or debian), run ./configure && make again, and check the output. It should be json-style now.
+
